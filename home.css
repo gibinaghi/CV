@@ -1,0 +1,202 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+.nombre {
+  background-color: white;
+  color: rgb(111, 44, 150);
+  font-family: 'Love Ya Like A Sister', cursive;
+  padding: 20px;
+}
+
+h1, h2 {
+  background-color: white;
+  color: rgb(111, 44, 150);
+  font-family: 'Love Ya Like A Sister', cursive;
+  padding: 20px;
+}
+
+button {
+  background-color: rgb(111, 44, 150);
+  color: white;
+  padding: 16px 30px;
+  border-radius: 10px;
+  display: inline-block;
+  text-decoration: none;
+  transition: .3s;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+}
+
+/* ---------- banner ----- */
+
+.banner {
+  background-image: url(https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80);
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0 100px 0;
+  text-align: center;
+}
+
+p, a {
+  background-color:  rgb(111, 44, 150);
+  color: white !important;
+  margin: 0;
+  font-family: 'Love Ya Like A Sister', cursive;
+  padding: 20px;
+}
+
+/* -------- titulos -------- */
+.titulos-wrap {
+  width: 80%;
+  margin: 60px auto;
+}
+
+.titulos-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.titulos {
+  background: rgb(111, 44, 150);
+  box-shadow: 0 0 16px rgba(0, 0, 0, 1);
+  border-radius: 4px;
+  padding: 24px;
+  margin: 0px 20px;
+}
+
+.titulos h3, p {
+  color: white;
+  font-family: 'Love Ya Like A Sister', cursive;
+  text-align: center;
+  padding: 10px;
+}
+
+/* -------- profile -------- */
+.profile-wrap {
+  width: 80%;
+  margin: 60px auto;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile {
+  background: rgb(111, 44, 150);
+  box-shadow: 0 0 16px rgba(0, 0, 0, 1);
+  border-radius: 4px;
+  padding: 24px;
+  margin: 0px 20px;
+}
+
+.profile img {
+  width: 100%;
+}
+
+img {
+  display: block;
+  max-width: 50%;
+  margin:auto;
+  border-radius: 10px;
+}
+
+.profile h3, p {
+  color: white;
+  font-family: 'Love Ya Like A Sister', cursive;
+  text-align: center;
+  padding: 10px;
+}
+
+/* -------- cards -------- */
+.cards-fluid {
+  width: 80%;
+  margin: 60px auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.col {
+  background: white;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 1);
+  border-radius: 4px;
+  padding: 24px;
+  margin: 10px 20px;
+}
+
+.col img {
+  width: 100%;
+}
+
+.col p {
+  background-color:  rgb(111, 44, 150);
+  color: white !important;
+  margin: 0;
+  font-family: 'Love Ya Like A Sister', cursive;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* -------- experiencia laboral -------- */
+.experiencia-wrap {
+  width: 80%;
+  margin: 60px auto;
+}
+
+.experiencia-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.experiencia {
+  background: rgb(111, 44, 150);
+  box-shadow: 0 0 16px rgba(0, 0, 0, 1);
+  border-radius: 4px;
+  padding: 24px;
+  margin: 0px 20px;
+}
+
+.experiencia h3, p {
+  color: white;
+  font-family: 'Love Ya Like A Sister', cursive;
+  text-align: center;
+  padding: 10px;
+}
+
+/* -------- footer -------- */
+
+.footer {
+  background: rgb(111, 44, 150);
+  color: white;
+  padding: 10px;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.footer .social [class^="icon-"] {
+  display: inline-block; 
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  padding: 10px;
+  width: 50%;
+  height: 50%;
+  line-height: 40px;
+}
