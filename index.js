@@ -7,19 +7,19 @@ var cad= `
                     <div class="collapse navbar-collapse" id="navbarNav">
                       <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                          <a class="nav-link" href="index.html" onclick="homeRedirect()"> Inicio <span class="sr-only">(current)</span></a>
+                          <a class="nav-link" href="index.html" onclick="homeRedirect()"> Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="aboutus.html" onclick="aboutUsRedirect()"> Quién soy </a>
+                          <a class="nav-link" href="aboutus.html" onclick="aboutUsRedirect()"> About Me </a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="education.html" onclick="educationRedirect()"> Educación </a>
+                          <a class="nav-link" href="education.html" onclick="educationRedirect()"> Education </a>
                         </li>
                         <li class="nav-item">
                           <a class="nav-link" href="skill.html" onclick="skillRedirect()"> Skill </a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="job.html" onclick="jobRedirect()"> Trabajo </a>
+                          <a class="nav-link" href="job.html" onclick="jobRedirect()"> Experience </a>
                         </li>
                       </ul>
                     </div>
@@ -35,7 +35,7 @@ var cad= `
                     <a href="https://github.com/gibinaghi?tab=repositories" class="icon-github" target="_blank"><p> gibinaghi </p></a>
                 </div>
                 <div> 
-                    <p class="copy">  &copy; 2020, Todos los derechos reservados - | María Gimena Binaghi |</p>
+                    <p class="copy">  &copy; 2020, All rights reserved - | María Gimena Binaghi |</p>
                 </div>
                   
 `
