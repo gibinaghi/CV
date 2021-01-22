@@ -17,3 +17,9 @@ function skillRedirect(){
 function jobRedirect(){
     window.location.href= "job.html";
 }
+
+ScrollReveal().reveal('.datos-container', {delay: 500});
+ScrollReveal().reveal('.titulos-container', {delay: 500});
+ScrollReveal().reveal('.col', {delay: 500});
+ScrollReveal().reveal('.experiencia-container', {delay: 500});
+
