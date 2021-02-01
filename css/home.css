@@ -289,6 +289,12 @@ h5 {
 
 .cv-btn {
   background:radial-gradient(circle, #FBCBEA,#f8a0d9);
+  border-style:double; 
+  border-color: gray;
+  position: fixed;
+  z-index: 999;
+  bottom: 6em;
+  right: 0;
 }
 
 /* -------- footer -------- */
