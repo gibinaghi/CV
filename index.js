@@ -1,6 +1,7 @@
 var cad= `
 <div class="container-fluid bg-white">
                   <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
+                    <a href="index.html" onclick="homeRedirect()"> <img src= "img/logo.png" width="50" class="logo"></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
